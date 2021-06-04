@@ -1,0 +1,16 @@
+{
+  "packageDirectories" : [ {
+    "path" : "SalesforceSFDXModule",
+    "default" : true,
+    "package" : "SalesforceSFDXModule",
+    "versionName" : "SalesforceSFDXModule",
+    "versionNumber" : "1.0.0.0"
+  } ],
+  "namespace" : "",
+  "sfdcLoginUrl" : "https://login.salesforce.com",
+  "sourceApiVersion" : "51.0",
+  "packageAliases" : {
+    "SalesforceSFDXModule" : "0Ho5g000000PB2mCAG",
+    "SalesforceSFDXModule@1.0.0.0" : "04t5g000000pDHNAA2"
+  }
+}
