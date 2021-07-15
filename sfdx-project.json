@@ -1,19 +1,26 @@
 {
-  "packageDirectories" : [ {
-    "path" : "force-app",
-    "default" : false
-  }, {
-    "path" : "SFDX1",
-    "default" : true,
-    "package" : "SFDX1",
-    "versionName" : "SFDX1",
-    "versionNumber" : "1.0.0.0"
-  } ],
-  "namespace" : "",
-  "sfdcLoginUrl" : "https://login.salesforce.com",
-  "sourceApiVersion" : "51.0",
-  "packageAliases" : {
-    "SFDX1" : "0Ho5g000000PB4iCAG",
-    "SFDX1@1.0.0.0" : "04t5g000000pLMYAA2"
-  }
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": false,
+            "package": "ARPackage",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        },
+        {
+            "path": "SFDX1",
+            "default": true,
+            "package": "SFDX1",
+            "versionName": "SFDX1",
+            "versionNumber": "1.0.0.0"
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "51.0",
+    "packageAliases": {
+        "SFDX1": "0Ho5g000000PB4iCAG",
+        "SFDX1@1.0.0.0": "04t5g000000pLMYAA2",
+        "ARPackage": "0Ho5g000000PB5CCAW"
+    }
 }
