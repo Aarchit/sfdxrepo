@@ -1,5 +1,11 @@
 {
   "packageDirectories" : [ {
+    "path" : "AR",
+    "default" : true,
+    "package" : "AR",
+    "versionName" : "AR",
+    "versionNumber" : "1.0.0.0"
+  }, {
     "path" : "force-app",
     "default" : false,
     "package" : "ARPackage",
@@ -7,7 +13,7 @@
     "versionNumber" : "0.1.0.NEXT"
   }, {
     "path" : "SFDX1",
-    "default" : true,
+    "default" : false,
     "package" : "SFDX1",
     "versionName" : "SFDX1",
     "versionNumber" : "1.0.0.0"
@@ -19,6 +25,8 @@
     "SFDX1" : "0Ho5g000000PB4iCAG",
     "SFDX1@1.0.0.0" : "04t5g000000pLMYAA2",
     "ARPackage" : "0Ho5g000000PB5CCAW",
-    "ARPackage@51.1.1.2" : "04t5g000000pLvvAAE"
+    "ARPackage@51.1.1.2" : "04t5g000000pLvvAAE",
+    "AR" : "0Ho5g000000PB5HCAW",
+    "AR@1.0.0.0" : "04t5g000000pLwAAAU"
   }
 }
