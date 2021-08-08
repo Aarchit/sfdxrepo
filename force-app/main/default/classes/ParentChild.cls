@@ -1,14 +1,14 @@
+//This is a ParentChild method
 public class ParentChild{
   public static void InsertParentChild(){
-  // Insert new accounts
+  // creating dummy list of account
         List<Account> ls = new List<Account>{
         new Account(name='Acme Inc.'),
         new Account(name='Acme')
         };
 
 insert ls;
-
-// Queries to get the inserted accounts
+// SOQL
 Account masterAcct = [SELECT Id, Name FROM Account WHERE Name = 'Acme Inc.' LIMIT 1];
 Account mergeAcct = [SELECT Id, Name FROM Account WHERE Name = 'Acme' LIMIT 1];
 
